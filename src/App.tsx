@@ -19,6 +19,7 @@ import NewProject from "./pages/NewProject";
 import Results from "./pages/Results";
 import Admin from "./pages/Admin";
 import MarketingVideo from "./pages/MarketingVideo";
+import Payment from "./pages/Payment";
 import NotFound from "./pages/NotFound";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
@@ -47,6 +48,7 @@ const AppContent = () => {
           <Route path="/results/:id" element={<Results />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/marketing-video" element={<MarketingVideo />} />
+          <Route path="/payment" element={<Payment />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
