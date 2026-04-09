@@ -177,6 +177,7 @@ export const translations = {
         admin: "Admin",
         logout: "Déconnexion",
         marketingVideo: "Marketing",
+        payment: "Paiement",
       },
       hero: {
         badge: "Analyse de Projet par IA",
