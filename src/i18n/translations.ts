@@ -10,6 +10,7 @@ export const translations = {
         dashboard: "Dashboard",
         admin: "Admin",
         logout: "Logout",
+        marketingVideo: "Marketing",
       },
       hero: {
         badge: "AI-Powered Project Analysis",
