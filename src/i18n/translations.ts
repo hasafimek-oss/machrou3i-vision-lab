@@ -343,6 +343,7 @@ export const translations = {
         admin: "الإدارة",
         logout: "تسجيل الخروج",
         marketingVideo: "التسويق",
+        payment: "الدفع",
       },
       hero: {
         badge: "تحليل المشاريع بالذكاء الاصطناعي",
