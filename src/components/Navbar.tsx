@@ -38,6 +38,7 @@ const Navbar = () => {
     { to: "/", label: t("nav.home") },
     { to: "/pricing", label: t("nav.pricing") },
     { to: "/marketing-video", label: t("nav.marketingVideo") },
+    { to: "/payment", label: t("nav.payment") },
     ...(user ? [{ to: "/dashboard", label: t("nav.dashboard") }] : []),
     ...(isAdmin ? [{ to: "/admin", label: t("nav.admin") }] : []),
   ];
